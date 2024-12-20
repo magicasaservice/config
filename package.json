@@ -4,45 +4,46 @@
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
+    "@release-it/bumper": "^6.0.1",
     "eslint": "^9.16.0",
     "prettier": "^3.4.2",
     "release-it": "^17.10.0"
   },
   "peerDependencies": {
-    "eslint": "^9.16.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "prettier": "^3.4.2",
-    "typescript-eslint": "^8.18.1",
     "@eslint/js": "^9.17.0",
     "@nuxt/eslint-config": "^0.7.2",
     "@typescript-eslint/eslint-plugin": "^8.17.0",
     "@typescript-eslint/parser": "^8.17.0",
-    "@vue/tsconfig": "^0.7.0"
+    "@vue/tsconfig": "^0.7.0",
+    "eslint": "^9.16.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.4.2",
+    "typescript-eslint": "^8.18.1"
   },
   "peerDependenciesMeta": {
     "eslint": {
-       "optional": false
+      "optional": false
     },
     "eslint-plugin-prettier": {
-       "optional": false
+      "optional": false
     },
     "prettier": {
-       "optional": false
+      "optional": false
     },
     "@eslint/js": {
-       "optional": false
+      "optional": false
     },
     "@nuxt/eslint-config": {
-       "optional": false
+      "optional": false
     },
     "@typescript-eslint/eslint-plugin": {
-       "optional": false
+      "optional": false
     },
     "@typescript-eslint/parser": {
-       "optional": false
+      "optional": false
     },
     "@vue/tsconfig": {
-       "optional": false
+      "optional": false
     }
   },
   "scripts": {
