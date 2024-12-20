@@ -46,6 +46,7 @@
     }
   },
   "scripts": {
+    "release": "release-it",
     "lint": "eslint ."
   },
   "files": [
