@@ -12,6 +12,6 @@ export const nuxtPreset = createConfigForNuxt(
     },
   },
   { ignores: ['dist', 'node_modules'] },
-  ...tseslint.rules.recommended,
+  ...tseslint.configs.recommended,
   prettierRecommended
 )
