@@ -1,0 +1,63 @@
+{
+  "name": "@maas/config",
+  "private": true,
+  "author": "Robin Scholz <https://github.com/robinscholz>, Christoph Jeworutzki <https://github.com/ChristophJeworutzki>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.16.0",
+    "prettier": "^3.4.2",
+    "release-it": "^17.10.0"
+  },
+  "peerDependencies": {
+    "@nuxt/eslint-config": "^0.7.2",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "@vue/tsconfig": "^0.7.0"
+  },
+  "peerDependenciesMeta": {
+    "@nuxt/eslint-config": {
+       "optional": false
+    },
+    "@typescript-eslint/eslint-plugin": {
+       "optional": false
+    },
+    "@typescript-eslint/parser": {
+       "optional": false
+    },
+    "@vue/tsconfig": {
+       "optional": false
+    }
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "files": [
+    "tsconfig/*",
+    "eslint-nuxt-preset.mjs",
+    "eslint-typescript-preset.mjs",
+    "prettier-preset.mjs"
+  ],
+  "release-it": {
+    "git": {
+      "requireCleanWorkingDir": true
+    },
+    "npm": {
+      "allowSameVersion": true,
+      "publishConfig": {
+        "access": "public"
+      }
+    },
+    "plugins": {
+      "@release-it/bumper": {
+        "in": "package.json",
+        "out": [
+          "package.json",
+          "packages/*/package.json",
+          "apps/*/package.json"
+        ]
+      }
+    }
+  },
+  "packageManager": "pnpm@9.5.0"
+}
