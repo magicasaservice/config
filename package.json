@@ -71,9 +71,7 @@
       "@release-it/bumper": {
         "in": "package.json",
         "out": [
-          "package.json",
-          "packages/*/package.json",
-          "apps/*/package.json"
+          "package.json"
         ]
       }
     }
