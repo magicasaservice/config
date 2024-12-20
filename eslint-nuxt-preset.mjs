@@ -1,4 +1,5 @@
 import { createConfigForNuxt } from '@nuxt/eslint-config/flat'
+import tseslint from 'typescript-eslint'
 import prettierRecommended from 'eslint-plugin-prettier/recommended'
 
 export const nuxtPreset = createConfigForNuxt(
@@ -11,5 +12,6 @@ export const nuxtPreset = createConfigForNuxt(
     },
   },
   { ignores: ['dist', 'node_modules'] },
+  ...tseslint.rules.recommended,
   prettierRecommended
 )
