@@ -11,7 +11,7 @@ export const vuePreset = defineConfig(
     rules: {
       '@typescript-eslint/no-duplicate-enum-values': 'off',
       'vue/multi-word-component-names': 'off',
-      'vue/attributes-order': 'warn',
+      'vue/attributes-order': 'error',
     },
   }
 )
