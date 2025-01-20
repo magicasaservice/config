@@ -42,15 +42,13 @@ Extend your `tsconfig.json`:
 #### Vue
 ```json
 {
-  "extends": "@maas/config/tsconfig/vue-base.json",
-  ...
+  "extends": "@maas/config/tsconfig/vue-base.json"
 }
 ```
 
 #### Generic Package
 ```json
 {
-  "extends": "@maas/config/tsconfig/package-base.json",
-  ...
+  "extends": "@maas/config/tsconfig/package-base.json"
 }
 ```
