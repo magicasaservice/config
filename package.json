@@ -15,10 +15,12 @@
     "@nuxt/eslint-config": "^0.7.2",
     "@typescript-eslint/eslint-plugin": "^8.17.0",
     "@typescript-eslint/parser": "^8.17.0",
+    "@vue/eslint-config-typescript":"^14.3.0",
     "@vue/tsconfig": "^0.7.0",
     "eslint": "^9.16.0",
-    "eslint-plugin-prettier": "^5.2.1",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vue": "^9.32.0",
     "prettier": "^3.4.2",
     "typescript": "~5.6.3",
     "typescript-eslint": "^8.18.1"
@@ -36,6 +38,9 @@
     "@typescript-eslint/parser": {
       "optional": false
     },
+    "@vue/eslint-config-typescript": {
+      "optional": false
+    },
     "@vue/tsconfig": {
       "optional": false
     },
@@ -43,6 +48,9 @@
       "optional": false
     },
     "eslint-plugin-prettier": {
+      "optional": false
+    },
+    "eslint-plugin-vue": {
       "optional": false
     },
     "prettier": {
@@ -63,6 +71,7 @@
     "tsconfig/*",
     "eslint-nuxt-preset.mjs",
     "eslint-typescript-preset.mjs",
+    "eslint-vue-preset.mjs",
     "prettier-preset.mjs"
   ],
   "release-it": {
