@@ -8,7 +8,7 @@
     "@release-it/bumper": "^6.0.1",
     "eslint": "^9.16.0",
     "prettier": "^3.4.2",
-    "release-it": "^17.10.0"
+    "release-it": "^17.11.0"
   },
   "peerDependencies": {
     "@eslint/js": "^9.17.0",
