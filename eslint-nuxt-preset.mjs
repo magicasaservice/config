@@ -8,6 +8,7 @@ export const nuxtPreset = createConfigForNuxt(
       'vue/html-self-closing': 'off',
       'vue/no-v-html': 'off',
       'vue/multi-word-component-names': 'off',
+      'vue/attributes-order': 'error',
     },
   },
   { ignores: ['dist', 'node_modules'] },
