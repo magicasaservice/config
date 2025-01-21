@@ -1,6 +1,15 @@
 {
   "name": "@maas/config",
-  "author": "Robin Scholz <https://github.com/robinscholz>, Christoph Jeworutzki <https://github.com/ChristophJeworutzki>",
+  "contributors": [
+    {
+      "name": "Robin Scholz",
+      "url": "https://github.com/robinscholz"
+    },
+    {
+      "name": "Christoph Jeworutzki",
+      "url": "https://github.com/ChristophJeworutzki"
+    }
+  ],
   "repository": "magicasaservice/config",
   "version": "1.4.1",
   "license": "MIT",
