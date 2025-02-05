@@ -11,7 +11,7 @@
     }
   ],
   "repository": "magicasaservice/config",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "license": "MIT",
   "devDependencies": {
     "@release-it/bumper": "^6.0.1",
