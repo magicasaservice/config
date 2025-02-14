@@ -11,6 +11,5 @@ export const nuxtPreset = createConfigForNuxt(
       'vue/attributes-order': 'error',
     },
   },
-  { ignores: ['dist', 'node_modules'] },
-)
-.append(prettierRecommended)
+  { ignores: ['dist', 'node_modules'] }
+).append(prettierRecommended)
