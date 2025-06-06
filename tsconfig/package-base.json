@@ -4,7 +4,7 @@
     "skipLibCheck": true,
     "strict": true,
     "module": "ESNext",
-    "moduleResolution": "node"
+    "moduleResolution": "bundler"
   },
   "exclude": ["node_modules", "**/*.md", "**/dist", ".test"]
 }
