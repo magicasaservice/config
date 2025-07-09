@@ -1,19 +1,18 @@
 import pluginVue from 'eslint-plugin-vue'
 import {
-  defineConfig,
-  createConfig as vueTsEslintConfig,
+  defineConfigWithVueTs,
+  vueTsConfigs,
 } from '@vue/eslint-config-typescript'
 
-export const vuePreset = defineConfig(
+export const vuePreset = defineConfigWithVueTs(
   pluginVue.configs['flat/essential'],
-  vueTsEslintConfig(),
+  vueTsConfigs,
   {
     rules: {
       '@typescript-eslint/no-duplicate-enum-values': 'off',
       'vue/multi-word-component-names': 'off',
       'vue/attributes-order': 'error',
-      'vue/require-default-prop': 'off'
-
+      'vue/require-default-prop': 'off',
     },
   }
 )

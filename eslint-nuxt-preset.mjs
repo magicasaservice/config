@@ -9,7 +9,7 @@ export const nuxtPreset = createConfigForNuxt(
       'vue/no-v-html': 'off',
       'vue/multi-word-component-names': 'off',
       'vue/attributes-order': 'error',
-      'vue/require-default-prop': 'off'
+      'vue/require-default-prop': 'off',
     },
   },
   { ignores: ['dist', 'node_modules'] }
