@@ -66,6 +66,9 @@
     "prettier": {
       "optional": false
     },
+    "prettier-plugin-tailwindcss": {
+      "optional": false
+    },
     "typescript": {
       "optional": false
     },
