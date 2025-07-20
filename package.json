@@ -13,9 +13,6 @@
   "repository": "magicasaservice/config",
   "version": "1.8.2",
   "license": "MIT",
-  "dependencies": {
-    "prettier-plugin-tailwindcss": "^0"
-  },
   "devDependencies": {
     "@release-it/bumper": "^7.0.5",
     "eslint": "^9.31.0",
@@ -34,6 +31,7 @@
     "eslint-plugin-prettier": "^5",
     "eslint-plugin-vue": "^9",
     "prettier": "^3",
+    "prettier-plugin-tailwindcss": "^0",
     "typescript": "^5",
     "typescript-eslint": "^8"
   },
@@ -66,6 +64,9 @@
       "optional": false
     },
     "prettier": {
+      "optional": false
+    },
+    "prettier-plugin-tailwindcss": {
       "optional": false
     },
     "typescript": {
