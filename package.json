@@ -87,6 +87,7 @@
     "eslint-nuxt-preset.mjs",
     "eslint-typescript-preset.mjs",
     "eslint-vue-preset.mjs",
+    "prettier-plain-preset.mjs",
     "prettier-preset.mjs"
   ],
   "type": "module",
