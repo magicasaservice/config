@@ -6,7 +6,7 @@ import {
 
 export const vuePreset = defineConfigWithVueTs(
   pluginVue.configs['flat/essential'],
-  vueTsConfigs,
+  vueTsConfigs.recommended,
   {
     rules: {
       '@typescript-eslint/no-duplicate-enum-values': 'off',
