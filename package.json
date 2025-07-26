@@ -15,25 +15,25 @@
   "license": "MIT",
   "devDependencies": {
     "@release-it/bumper": "^7.0.5",
-    "eslint": "^9.31.0",
+    "eslint": "^9.32.0",
     "prettier": "^3.6.2",
-    "release-it": "^18.1.2"
+    "release-it": "^19.0.4"
   },
   "peerDependencies": {
-    "@eslint/js": "^9",
-    "@nuxt/eslint-config": "^0",
-    "@typescript-eslint/eslint-plugin": "^8",
-    "@typescript-eslint/parser": "^8",
-    "@vue/eslint-config-typescript": "^14",
-    "@vue/tsconfig": "^0",
-    "eslint": "^9",
-    "eslint-config-prettier": "^9",
-    "eslint-plugin-prettier": "^5",
-    "eslint-plugin-vue": "^9",
-    "prettier": "^3",
-    "prettier-plugin-tailwindcss": "^0",
-    "typescript": "^5",
-    "typescript-eslint": "^8"
+    "@eslint/js": ">=9",
+    "@nuxt/eslint-config": ">=0",
+    "@typescript-eslint/eslint-plugin": ">=8",
+    "@typescript-eslint/parser": ">=8",
+    "@vue/eslint-config-typescript": ">=14",
+    "@vue/tsconfig": ">=0",
+    "eslint": ">=9",
+    "eslint-config-prettier": ">=9",
+    "eslint-plugin-prettier": ">=5",
+    "eslint-plugin-vue": ">=9",
+    "prettier": ">=3",
+    "prettier-plugin-tailwindcss": ">=0",
+    "typescript": ">=5",
+    "typescript-eslint": ">=8"
   },
   "peerDependenciesMeta": {
     "@eslint/js": {
@@ -79,6 +79,7 @@
   "scripts": {
     "release": "release-it",
     "lint": "eslint .",
+    "uninstall": "pnpm dlx rimraf --glob ./**/node_modules --glob ./**/pnpm-lock.yaml",
     "update:deps": "pnpm dlx taze -r -w",
     "update:deps:major": "pnpm dlx taze major -r -w"
   },
