@@ -6,5 +6,6 @@ export const typescriptPreset = [
   eslint.configs.recommended,
   ...tseslint.configs.recommended,
   prettierRecommended,
+  { rules: { curly: 'error' } },
   { ignores: ['dist', 'node_modules'] },
 ]

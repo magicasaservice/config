@@ -10,6 +10,7 @@ export const nuxtPreset = createConfigForNuxt(
       'vue/multi-word-component-names': 'off',
       'vue/attributes-order': 'error',
       'vue/require-default-prop': 'off',
+      curly: 'error',
     },
   },
   { ignores: ['dist', 'node_modules'] }

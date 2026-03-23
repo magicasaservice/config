@@ -13,6 +13,7 @@ export const vuePreset = defineConfigWithVueTs(
       'vue/multi-word-component-names': 'off',
       'vue/attributes-order': 'error',
       'vue/require-default-prop': 'off',
+      curly: 'error',
     },
   }
 )
