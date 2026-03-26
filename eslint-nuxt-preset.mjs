@@ -1,7 +1,7 @@
 import { createConfigForNuxt } from '@nuxt/eslint-config/flat'
 import prettierRecommended from 'eslint-plugin-prettier/recommended'
 
-export const nuxtPreset = createConfigForNuxt(
+const nuxtConfig = await createConfigForNuxt(
   {},
   {
     rules: {
@@ -10,8 +10,13 @@ export const nuxtPreset = createConfigForNuxt(
       'vue/multi-word-component-names': 'off',
       'vue/attributes-order': 'error',
       'vue/require-default-prop': 'off',
-      curly: 'error',
     },
-  },
-  { ignores: ['dist', 'node_modules'] }
-).append(prettierRecommended)
+  }
+)
+
+export const nuxtPreset = [
+  ...nuxtConfig,
+  prettierRecommended,
+  { rules: { curly: 'error' } },
+  { ignores: ['dist', 'node_modules'] },
+]
