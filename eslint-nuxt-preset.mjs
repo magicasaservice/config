@@ -10,6 +10,14 @@ const nuxtConfig = await createConfigForNuxt(
       'vue/multi-word-component-names': 'off',
       'vue/attributes-order': 'error',
       'vue/require-default-prop': 'off',
+      'no-restricted-syntax': [
+        'error',
+        {
+          selector: "CallExpression[callee.name='withDefaults']",
+          message:
+            'Do not use withDefaults — destructure instead, e.g. const { foo = 1 } = defineProps<Props>().',
+        },
+      ],
     },
   }
 )
