@@ -15,37 +15,29 @@
   "license": "MIT",
   "devDependencies": {
     "@release-it/bumper": "^7.0.5",
-    "eslint": "^9.32.0",
+    "eslint": "^10.8.1",
     "prettier": "^3.6.2",
     "release-it": "^19.0.4"
   },
   "peerDependencies": {
-    "@eslint/js": ">=9",
-    "@nuxt/eslint-config": ">=0",
-    "@typescript-eslint/eslint-plugin": ">=8",
-    "@typescript-eslint/parser": ">=8",
-    "@vue/eslint-config-typescript": ">=14",
-    "@vue/tsconfig": ">=0",
-    "eslint": ">=9",
-    "eslint-config-prettier": ">=9",
-    "eslint-plugin-prettier": ">=5",
-    "eslint-plugin-vue": ">=9",
-    "prettier": ">=3",
-    "prettier-plugin-tailwindcss": ">=0",
-    "typescript": ">=5",
-    "typescript-eslint": ">=8"
+    "@eslint/js": "^9 || ^10",
+    "@nuxt/eslint-config": "^1.15",
+    "@vue/eslint-config-typescript": "^14.7",
+    "@vue/tsconfig": ">=0.9.1 <0.10",
+    "eslint": "^9 || ^10",
+    "eslint-config-prettier": "^10.1",
+    "eslint-plugin-prettier": "^5.2.5",
+    "eslint-plugin-vue": "^10.8",
+    "prettier": "^3",
+    "prettier-plugin-tailwindcss": ">=0.6 <0.9",
+    "typescript": ">=5.8 <6.1",
+    "typescript-eslint": "^8.58"
   },
   "peerDependenciesMeta": {
     "@eslint/js": {
       "optional": false
     },
     "@nuxt/eslint-config": {
-      "optional": false
-    },
-    "@typescript-eslint/eslint-plugin": {
-      "optional": false
-    },
-    "@typescript-eslint/parser": {
       "optional": false
     },
     "@vue/eslint-config-typescript": {
@@ -55,6 +47,9 @@
       "optional": false
     },
     "eslint": {
+      "optional": false
+    },
+    "eslint-config-prettier": {
       "optional": false
     },
     "eslint-plugin-prettier": {
