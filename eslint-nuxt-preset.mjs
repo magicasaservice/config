@@ -1,5 +1,6 @@
 import { createConfigForNuxt } from '@nuxt/eslint-config/flat'
 import prettierRecommended from 'eslint-plugin-prettier/recommended'
+import { importOrder } from './eslint-import-order.mjs'
 
 const nuxtConfig = await createConfigForNuxt(
   {},
@@ -26,5 +27,6 @@ export const nuxtPreset = [
   ...nuxtConfig,
   prettierRecommended,
   { rules: { curly: 'error' } },
+  importOrder,
   { ignores: ['dist', 'node_modules'] },
 ]
