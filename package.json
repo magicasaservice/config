@@ -88,6 +88,7 @@
   },
   "files": [
     "tsconfig/*",
+    "eslint-import-order.mjs",
     "eslint-nuxt-preset.mjs",
     "eslint-typescript-preset.mjs",
     "eslint-vue-preset.mjs",
